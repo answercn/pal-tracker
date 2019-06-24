@@ -25,4 +25,18 @@ repositories {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+    testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
 }
+
+bootRun.environment([
+        "WELCOME_MESSAGE": "hello2345",
+        "PORT": "333",
+        "MEMORY_LIMIT": "444",
+        "CF_INSTANCE_INDEX": "555",
+        "CF_INSTANCE_ADDR": "666"
+])
+
+test.environment([
+        "WELCOME_MESSAGE": "Hello from test",
+])
+
