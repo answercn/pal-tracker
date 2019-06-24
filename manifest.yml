@@ -5,7 +5,7 @@ applications:
       - route: answer456-pal-tracker.cfapps.io
 #      - route: pal-tracker-answer456-sampsonite.apps.chicken.pal.pivotal.io
     env:
-      WELCOME_MESSAGE: Hello from the review environment111
+      WELCOME_MESSAGE: Hello from the review environment
 #      JBP_CONFIG_OPEN_JDK_JRE: '{jre: {version:11.+}}'
 
 #使用下面的命令，替代manifest文件
