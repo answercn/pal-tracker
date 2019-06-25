@@ -6,7 +6,7 @@ applications:
 #      - route: pal-tracker-answer456-sampsonite.apps.chicken.pal.pivotal.io
     env:
       WELCOME_MESSAGE: Hello from the review environment111
-#      JBP_CONFIG_OPEN_JDK_JRE: '{jre: {version:11.+}}'
+      JBP_CONFIG_OPEN_JDK_JRE: '{jre: {version:11.+}}'
 
 #使用下面的命令，替代manifest文件
 #cf push pal-tracker --random-route -p ./build/libs/pal-tracker.jar
